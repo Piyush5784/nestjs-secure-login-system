@@ -40,8 +40,6 @@ export class UserService {
       },
     });
 
-    console.log(user);
-
     delete user.password;
     delete user.id;
 
