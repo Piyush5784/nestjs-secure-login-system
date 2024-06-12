@@ -8,7 +8,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { Prisma, User } from '@prisma/client';
+import { User } from '@prisma/client';
 import { AuthGuard } from './auth.guard';
 import { CreateUserDto } from './dto/register-user.dto';
 import { loginUserDto } from './dto/login-user.dto';
